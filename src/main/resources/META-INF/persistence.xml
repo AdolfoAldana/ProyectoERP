@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.mycompany_ERP_System_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.mycompany.erp_system.co.db.Factura</class>
+    <class>com.mycompany.erp_system.co.db.Invetario</class>
+    <class>com.mycompany.erp_system.co.db.Clientes</class>
+    <class>com.mycompany.erp_system.co.db.CuentaCobrar</class>
+    <class>com.mycompany.erp_system.co.db.Egresos</class>
+    <class>com.mycompany.erp_system.co.db.Ingresos</class>
+    <class>com.mycompany.erp_system.co.db.Usuario</class>
+    <class>com.mycompany.erp_system.co.db.Proveedores</class>
+    <class>com.mycompany.erp_system.co.db.CuentaPagar</class>
+    <class>com.mycompany.erp_system.co.db.Empleados</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/Erp_System"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="51160418"/>
+    </properties>
+  </persistence-unit>
+</persistence>

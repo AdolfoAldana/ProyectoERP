@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ERP_System"/>
+
+<Resource auth="Container" driverClassName="org.postgresql.Driver"
+ logAbandoned="true" maxActive="3" maxIdle="1" maxWait="20000" 
+name="jdbc/basePostgresql" password="51160418" removeAbandoned="true" 
+removeAbandonedTimeout="20" type="javax.sql.DataSource" 
+url="jdbc:postgresql://localhost:5432/general" username="postgres"/>
